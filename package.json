@@ -1,0 +1,22 @@
+{
+  "name": "SurviveJS Kanban App",
+  "version": "1.0.0",
+  "description": "Learning Webpack with React by creating a Kanban App via SurviveJS Tut",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "Melissa Smith",
+  "readme": "README.md",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "npm-install-webpack-plugin": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-merge": "^0.13.0"
+  }
+}
