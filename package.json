@@ -30,6 +30,7 @@
     "babel-plugin-syntax-decorators": "^6.8.0",
     "babel-plugin-syntax-object-rest-spread": "^6.8.0",
     "babel-plugin-transform-regenerator": "^6.9.0",
+    "node-uuid": "^1.4.7",
     "react": "^15.1.0",
     "react-dom": "^15.1.0"
   }

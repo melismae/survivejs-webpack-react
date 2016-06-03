@@ -1,3 +1,6 @@
 body {
-  background: blue;
+  background: teal;
+  color: #ececec;
+  font-family: sans-serif;
+  font-size: 18px;
 }
