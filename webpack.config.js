@@ -14,6 +14,10 @@ const common = {
   entry: {
     app: PATHS.app
   },
+  // add resolve extentions for Babel compiling
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
   output: {
     path: PATHS.build,
     filename: 'bundle.js'
@@ -25,6 +29,14 @@ const common = {
         test: /\.css$/,
         loaders: ['style', 'css'],
         // Include accepts either an path or an array of paths
+        include: PATHS.app
+      },
+      {
+        //sets up jsx, also accepts js
+        test: /\.jsx?$/,
+        //enable caching to improve performance
+        loaders: ['babel?cacheDirectory'],
+        // parse only app files. can also use an exclude here, but include is more specific
         include: PATHS.app
       }
     ]

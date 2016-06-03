@@ -1,0 +1,19 @@
+{
+  "presets": [
+    "es2015",
+    "react",
+    "survivejs-kanban"
+  ],
+  "plugins": [
+    "syntax-class-properties",
+    "syntax-decorators",
+    "syntax-object-rest-spread",
+    [
+      "transform-regenerator",
+      {
+        "async": false,
+        "asyncGenerators": false
+      }
+    ]
+  ]
+}

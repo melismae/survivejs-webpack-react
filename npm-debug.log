@@ -1,0 +1,230 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'babel-plugin-babel-plugin-syntax-class-properties',
+1 verbose cli   'babel-plugin-babel-plugin-syntax-decorators',
+1 verbose cli   'babel-plugin-babel-plugin-syntax-object-rest-spread',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.5
+3 info using node@v4.4.5
+4 verbose install initial load of /Users/melissa/Desktop/projects/kanban_app/package.json
+5 warn package.json SurviveJS_Kanban_App@1.0.0 No repository field.
+6 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/babel-core/package.json
+7 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/babel-loader/package.json
+8 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/babel-plugin-syntax-class-properties/package.json
+9 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/babel-plugin-syntax-decorators/package.json
+10 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/babel-plugin-syntax-object-rest-spread/package.json
+11 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/babel-plugin-transform-regenerator/package.json
+12 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/babel-preset-es2015/package.json
+13 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/babel-preset-react/package.json
+14 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/babel-preset-survivejs-kanban/package.json
+15 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/css-loader/package.json
+16 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/npm-install-webpack-plugin/package.json
+17 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/react/package.json
+18 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/react-dom/package.json
+19 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/style-loader/package.json
+20 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/webpack/package.json
+21 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/webpack-dev-server/package.json
+22 verbose installManyTop reading scoped package data from /Users/melissa/Desktop/projects/kanban_app/node_modules/webpack-merge/package.json
+23 info package.json babel-plugin-transform-regenerator@6.9.0 license should be a valid SPDX license expression
+24 verbose readDependencies loading dependencies from /Users/melissa/Desktop/projects/kanban_app/package.json
+25 silly cache add args [ 'babel-plugin-babel-plugin-syntax-class-properties', null ]
+26 verbose cache add spec babel-plugin-babel-plugin-syntax-class-properties
+27 silly cache add args [ 'babel-plugin-babel-plugin-syntax-decorators', null ]
+28 verbose cache add spec babel-plugin-babel-plugin-syntax-decorators
+29 silly cache add args [ 'babel-plugin-babel-plugin-syntax-object-rest-spread', null ]
+30 verbose cache add spec babel-plugin-babel-plugin-syntax-object-rest-spread
+31 silly cache add parsed spec Result {
+31 silly cache add   raw: 'babel-plugin-babel-plugin-syntax-class-properties',
+31 silly cache add   scope: null,
+31 silly cache add   name: 'babel-plugin-babel-plugin-syntax-class-properties',
+31 silly cache add   rawSpec: '',
+31 silly cache add   spec: 'latest',
+31 silly cache add   type: 'tag' }
+32 silly addNamed babel-plugin-babel-plugin-syntax-class-properties@latest
+33 verbose addNamed "latest" is being treated as a dist-tag for babel-plugin-babel-plugin-syntax-class-properties
+34 info addNameTag [ 'babel-plugin-babel-plugin-syntax-class-properties',
+34 info addNameTag   'latest' ]
+35 silly mapToRegistry name babel-plugin-babel-plugin-syntax-class-properties
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry data Result {
+38 silly mapToRegistry   raw: 'babel-plugin-babel-plugin-syntax-class-properties',
+38 silly mapToRegistry   scope: null,
+38 silly mapToRegistry   name: 'babel-plugin-babel-plugin-syntax-class-properties',
+38 silly mapToRegistry   rawSpec: '',
+38 silly mapToRegistry   spec: 'latest',
+38 silly mapToRegistry   type: 'tag' }
+39 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-class-properties
+40 verbose addNameTag registry:https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-class-properties not in flight; fetching
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'babel-plugin-babel-plugin-syntax-decorators',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'babel-plugin-babel-plugin-syntax-decorators',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed babel-plugin-babel-plugin-syntax-decorators@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for babel-plugin-babel-plugin-syntax-decorators
+44 info addNameTag [ 'babel-plugin-babel-plugin-syntax-decorators', 'latest' ]
+45 silly mapToRegistry name babel-plugin-babel-plugin-syntax-decorators
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'babel-plugin-babel-plugin-syntax-decorators',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'babel-plugin-babel-plugin-syntax-decorators',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-decorators
+50 verbose addNameTag registry:https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-decorators not in flight; fetching
+51 silly cache add parsed spec Result {
+51 silly cache add   raw: 'babel-plugin-babel-plugin-syntax-object-rest-spread',
+51 silly cache add   scope: null,
+51 silly cache add   name: 'babel-plugin-babel-plugin-syntax-object-rest-spread',
+51 silly cache add   rawSpec: '',
+51 silly cache add   spec: 'latest',
+51 silly cache add   type: 'tag' }
+52 silly addNamed babel-plugin-babel-plugin-syntax-object-rest-spread@latest
+53 verbose addNamed "latest" is being treated as a dist-tag for babel-plugin-babel-plugin-syntax-object-rest-spread
+54 info addNameTag [ 'babel-plugin-babel-plugin-syntax-object-rest-spread',
+54 info addNameTag   'latest' ]
+55 silly mapToRegistry name babel-plugin-babel-plugin-syntax-object-rest-spread
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'babel-plugin-babel-plugin-syntax-object-rest-spread',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   name: 'babel-plugin-babel-plugin-syntax-object-rest-spread',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-object-rest-spread
+60 verbose addNameTag registry:https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-object-rest-spread not in flight; fetching
+61 verbose request uri https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-class-properties
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 5:36:59 PM
+64 verbose request id aa97e04aae127710
+65 http request GET https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-class-properties
+66 verbose request uri https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-decorators
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 5:36:59 PM
+69 http request GET https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-decorators
+70 verbose request uri https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-object-rest-spread
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 5:36:59 PM
+73 http request GET https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-object-rest-spread
+74 http 404 https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-decorators
+75 verbose headers { 'content-type': 'application/json',
+75 verbose headers   'cache-control': 'max-age=0',
+75 verbose headers   'content-length': '2',
+75 verbose headers   'accept-ranges': 'bytes',
+75 verbose headers   date: 'Fri, 03 Jun 2016 00:37:04 GMT',
+75 verbose headers   via: '1.1 varnish',
+75 verbose headers   age: '0',
+75 verbose headers   connection: 'keep-alive',
+75 verbose headers   'x-served-by': 'cache-lax1421-LAX',
+75 verbose headers   'x-cache': 'MISS',
+75 verbose headers   'x-cache-hits': '0',
+75 verbose headers   'x-timer': 'S1464914224.843756,VS0,VE51',
+75 verbose headers   vary: 'Accept-Encoding' }
+76 silly get cb [ 404,
+76 silly get   { 'content-type': 'application/json',
+76 silly get     'cache-control': 'max-age=0',
+76 silly get     'content-length': '2',
+76 silly get     'accept-ranges': 'bytes',
+76 silly get     date: 'Fri, 03 Jun 2016 00:37:04 GMT',
+76 silly get     via: '1.1 varnish',
+76 silly get     age: '0',
+76 silly get     connection: 'keep-alive',
+76 silly get     'x-served-by': 'cache-lax1421-LAX',
+76 silly get     'x-cache': 'MISS',
+76 silly get     'x-cache-hits': '0',
+76 silly get     'x-timer': 'S1464914224.843756,VS0,VE51',
+76 silly get     vary: 'Accept-Encoding' } ]
+77 http 404 https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-class-properties
+78 verbose headers { 'content-type': 'application/json',
+78 verbose headers   'cache-control': 'max-age=0',
+78 verbose headers   'content-length': '2',
+78 verbose headers   'accept-ranges': 'bytes',
+78 verbose headers   date: 'Fri, 03 Jun 2016 00:37:05 GMT',
+78 verbose headers   via: '1.1 varnish',
+78 verbose headers   age: '0',
+78 verbose headers   connection: 'keep-alive',
+78 verbose headers   'x-served-by': 'cache-lax1424-LAX',
+78 verbose headers   'x-cache': 'MISS',
+78 verbose headers   'x-cache-hits': '0',
+78 verbose headers   'x-timer': 'S1464914224.849376,VS0,VE344',
+78 verbose headers   vary: 'Accept-Encoding' }
+79 silly get cb [ 404,
+79 silly get   { 'content-type': 'application/json',
+79 silly get     'cache-control': 'max-age=0',
+79 silly get     'content-length': '2',
+79 silly get     'accept-ranges': 'bytes',
+79 silly get     date: 'Fri, 03 Jun 2016 00:37:05 GMT',
+79 silly get     via: '1.1 varnish',
+79 silly get     age: '0',
+79 silly get     connection: 'keep-alive',
+79 silly get     'x-served-by': 'cache-lax1424-LAX',
+79 silly get     'x-cache': 'MISS',
+79 silly get     'x-cache-hits': '0',
+79 silly get     'x-timer': 'S1464914224.849376,VS0,VE344',
+79 silly get     vary: 'Accept-Encoding' } ]
+80 http 404 https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-object-rest-spread
+81 verbose headers { 'content-type': 'application/json',
+81 verbose headers   'cache-control': 'max-age=0',
+81 verbose headers   'content-length': '2',
+81 verbose headers   'accept-ranges': 'bytes',
+81 verbose headers   date: 'Fri, 03 Jun 2016 00:37:05 GMT',
+81 verbose headers   via: '1.1 varnish',
+81 verbose headers   age: '0',
+81 verbose headers   connection: 'keep-alive',
+81 verbose headers   'x-served-by': 'cache-lax1423-LAX',
+81 verbose headers   'x-cache': 'MISS',
+81 verbose headers   'x-cache-hits': '0',
+81 verbose headers   'x-timer': 'S1464914224.849722,VS0,VE356',
+81 verbose headers   vary: 'Accept-Encoding' }
+82 silly get cb [ 404,
+82 silly get   { 'content-type': 'application/json',
+82 silly get     'cache-control': 'max-age=0',
+82 silly get     'content-length': '2',
+82 silly get     'accept-ranges': 'bytes',
+82 silly get     date: 'Fri, 03 Jun 2016 00:37:05 GMT',
+82 silly get     via: '1.1 varnish',
+82 silly get     age: '0',
+82 silly get     connection: 'keep-alive',
+82 silly get     'x-served-by': 'cache-lax1423-LAX',
+82 silly get     'x-cache': 'MISS',
+82 silly get     'x-cache-hits': '0',
+82 silly get     'x-timer': 'S1464914224.849722,VS0,VE356',
+82 silly get     vary: 'Accept-Encoding' } ]
+83 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-decorators
+83 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+83 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:242:14)
+83 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+83 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:200:22)
+83 verbose stack     at emitTwo (events.js:87:13)
+83 verbose stack     at Request.emit (events.js:172:7)
+83 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+83 verbose stack     at emitOne (events.js:82:20)
+83 verbose stack     at Request.emit (events.js:169:7)
+83 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:988:12)
+84 verbose statusCode 404
+85 verbose pkgid babel-plugin-babel-plugin-syntax-decorators
+86 verbose cwd /Users/melissa/Desktop/projects/kanban_app
+87 error Darwin 15.5.0
+88 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "babel-plugin-babel-plugin-syntax-class-properties" "babel-plugin-babel-plugin-syntax-decorators" "babel-plugin-babel-plugin-syntax-object-rest-spread" "--save"
+89 error node v4.4.5
+90 error npm  v2.15.5
+91 error code E404
+92 error 404 Registry returned 404 for GET on https://registry.npmjs.org/babel-plugin-babel-plugin-syntax-decorators
+92 error 404
+92 error 404 'babel-plugin-babel-plugin-syntax-decorators' is not in the npm registry.
+92 error 404 You should bug the author to publish it (or use the name yourself!)
+92 error 404 It was specified as a dependency of 'SurviveJS_Kanban_App'
+92 error 404
+92 error 404 Note that you can also install from a
+92 error 404 tarball, folder, http url, or git url.
+93 verbose exit [ 1, true ]
