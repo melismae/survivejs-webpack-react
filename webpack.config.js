@@ -9,6 +9,9 @@ const PATHS = {
   build: path.join(__dirname, 'build')
 };
 
+//set to npm lifecycle event - allows for predictable mapping btw package.json & .babelrc
+process.env.BABEL_ENV = TARGET;
+
 const common = {
   //Entry accepts a path or an object of entries.
   entry: {

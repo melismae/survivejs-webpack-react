@@ -4,6 +4,13 @@
     "react",
     "survivejs-kanban"
   ],
+  "env": {
+    "start": {
+      "presets": [
+        "react-hmre"
+      ]
+    }
+  },
   "plugins": [
     "syntax-class-properties",
     "syntax-decorators",
