@@ -9,14 +9,7 @@ export default class Note extends React.Component {
       editing: false
     };
   }
-  render() {
-    //Render the component differently based on state
-    if(this.state.editing) {
-      return this.renderEdit();
-    }
 
-    return this.renderNote();
-  }
   renderEdit = () => {
     console.log("renderEdit");
     return <input type="text"
@@ -28,12 +21,23 @@ export default class Note extends React.Component {
       onBlur={this.finishEdit}
       onKeyPress={this.checkEnter} />
   }
+
   renderNote = () => {
     console.log("renderNote");
-
+    const onDelete = this.props.onDelete;
     // if the user clicks a normal note, trigger editing logic
-    return <div onClick={this.edit}>{this.props.task}</div>;
+    return (
+      <div onClick={this.edit}>
+        <span className="task">{this.props.task}</span>
+        {onDelete ? this.renderDelete() : null}
+      </div>
+    );
   };
+
+  renderDelete = () => {
+    return <button className="delete-note" onClick={this.props.onDelete}>x</button>
+  };
+
   edit = () => {
     console.log("edit");
     //Enter edit mode
@@ -41,6 +45,7 @@ export default class Note extends React.Component {
       editing: true
     });
   };
+
   checkEnter = (e) => {
     console.log("checkEnter");
     // The user hit enter -> finish up
@@ -48,6 +53,7 @@ export default class Note extends React.Component {
       this.finishEdit(e);
     }
   };
+
   finishEdit = (e) => {
     console.log("finishEdit");
 
@@ -61,4 +67,13 @@ export default class Note extends React.Component {
       });
     }
   };
+
+  render() {
+    //Render the component differently based on state
+    if(this.state.editing) {
+      return this.renderEdit();
+    }
+
+    return this.renderNote();
+  }
 }
